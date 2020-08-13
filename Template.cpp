@@ -29,14 +29,14 @@ void dbg_out() { cerr << endl; }
 template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr << ' ' << H; dbg_out(T...); }
 
 
-const ll N=1e5+5,mod=1e9+7,bit=61;
+const int N=1e5+5,mod=1e9+7,bit=61;
 
 
 signed main()
 {
     fast;
 
-    ll t=1;
+    int t=1;
     //cin>>t;
     f(tc,1,t)
     {
