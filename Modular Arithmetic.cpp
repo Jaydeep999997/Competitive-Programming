@@ -1,3 +1,5 @@
+// Credit: Neal Wu (https://codeforces.com/profile/neal)
+
 template<const int &MOD>
 struct _m_int  // This is our new type which will do operations under modulo MOD
 {
