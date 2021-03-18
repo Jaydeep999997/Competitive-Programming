@@ -3,8 +3,8 @@ using namespace std;
 
 typedef long double ld;
 typedef long long int ll;
-typedef pair<int,int> pi;
-typedef pair<long long,long long> pll;
+typedef pair<int, int> pi;
+typedef pair<long long, long long> pll;
 
 #define endl '\n'
 #define ff first
@@ -28,19 +28,31 @@ void dbg_out() { cerr << endl; }
 template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr << ' ' << H; dbg_out(T...); }
 
 
-const int N=1e5+5,mod=1e9+7,bit=61;
+const int N = 3e5 + 5, mod = 1e9 + 7, bit = 61;
 
+mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+
+int getRand(int l, int r)
+{
+	uniform_int_distribution<int> uid(l, r);
+	return uid(rng);
+}
 
 signed main()
 {
-    fast;
+	fast;
 
-    int t=1;
-    //cin>>t;
-    f(tc,1,t)
-    {
 
-    }
-    return 0;
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
+#endif
+
+	int t = 1;
+// 	cin >> t;
+	f(tc, 1, t)
+	{
+		
+	}
+	return 0;
 }
-
