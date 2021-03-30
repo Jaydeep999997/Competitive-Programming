@@ -16,9 +16,9 @@ void functions()
 	bit.size(); //return size of bitset
 	bit.test(1); //check if 1st bit is on or not
 	cout << bit.to_string(); //converts to string
-  bit._Find_first(); //Rerutns first set bit starting from left 
-  bit._Find_next(idx); // find the first position which is > idx and with the set bit 
-  bit.to_ullong(); // Return the converted integer, overflow_error will occur if the value can not be represented in unsigned long long
+  	bit._Find_first(); //Rerutns first set bit starting from left 
+  	bit._Find_next(idx); // find the first position which is > idx and with the set bit 
+  	bit.to_ullong(); // Return the converted integer, overflow_error will occur if the value can not be represented in unsigned long long
  
 }
 
