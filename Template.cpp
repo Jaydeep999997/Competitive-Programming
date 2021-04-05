@@ -24,8 +24,8 @@ template<typename T> ostream& operator<<(ostream &os, const vector<T> &v) { os <
 template<typename T, size_t size> ostream& operator<<(ostream &os, const array<T, size> &arr) { os << '{'; string sep; for (const auto &x : arr) os << sep << x, sep = ", "; return os << '}'; }
 template<typename A, typename B> ostream& operator<<(ostream &os, const pair<A, B> &p) { return os << '(' << p.first << ", " << p.second << ')'; }
 
-void dbg_out() { cerr << endl; }
-template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr << ' ' << H; dbg_out(T...); }
+void dbg_out() { cout << endl; }
+template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cout << ' ' << H; dbg_out(T...); }
 
 
 const int N = 3e5 + 5, mod = 1e9 + 7, bit = 61;
@@ -52,7 +52,7 @@ signed main()
 // 	cin >> t;
 	f(tc, 1, t)
 	{
-		
+
 	}
 	return 0;
 }
