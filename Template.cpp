@@ -10,7 +10,7 @@ typedef pair<long long, long long> pll;
 #define ff first
 #define ss second
 #define pb push_back
-#define int long long   // Make sure to use ll everywhere while uncommenting this, to avoid overflow
+#define int long long   // Make sure to use ll everywhere while commenting this, to avoid overflow
 #define sz(v) (int)v.size()
 #define inf 2147483647
 #define llinf 9223372036854775807
