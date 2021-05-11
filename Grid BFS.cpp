@@ -11,22 +11,22 @@ bool valid(int x, int y)
 
 void bfs(int id, int x, int y)  // int vs long long, w = 1, valid()?
 {
-	f(i, 1, n)
+	for (int i = 1; i <= n; i++)
 	{
-		f(j, 1, m)
+		for (int j = 1; j <= m; j++)
 		{
 			dis[id][i][j] = inf;
 		}
 	}
 	dis[id][x][y] = 0;
-	queue<pi> mq;
+	queue<pair<int, int>> mq;
 	mq.push({x, y});
 	while (!mq.empty())
 	{
 		int u = mq.front().first;
 		int v = mq.front().second;
 		mq.pop();
-		f(k, 0, 3)
+		for (int k = 0; k <= 3; k++)
 		{
 			int nu = u + dx[k];
 			int nv = v + dy[k];
