@@ -1,3 +1,7 @@
+#pragma GCC optimize("O3")
+#pragma GCC target("avx2")
+#pragma GCC optimize("unroll-loops")
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -6,7 +10,6 @@ typedef long long int ll;
 typedef pair<int, int> pi;
 typedef pair<long long, long long> pll;
 
-#define endl '\n'
 #define ff first
 #define ss second
 #define pb push_back
