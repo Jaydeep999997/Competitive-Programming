@@ -83,5 +83,5 @@ vector<long long> convolve(vector<long long> a, vector<long long> b)
 	return ans;
 }
 
-Problem0: https://judge.yosupo.jp/problem/bitwise_xor_convolution
-Solution0: https://judge.yosupo.jp/submission/48100, https://pastebin.com/ADhC3T5k
+// Problem0: https://judge.yosupo.jp/problem/bitwise_xor_convolution
+// Solution0: https://judge.yosupo.jp/submission/48100, https://pastebin.com/ADhC3T5k
