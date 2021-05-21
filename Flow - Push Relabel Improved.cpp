@@ -75,3 +75,7 @@ int max_flow(int s, int t)
 		max_flow += flow[i][t];
 	return max_flow;
 }
+
+
+// Problem0: https://cses.fi/problemset/task/1694/
+// Solution0: https://cses.fi/paste/0a9b4cef573d748e213495/, https://pastebin.ubuntu.com/p/g7npsG4cqc/
