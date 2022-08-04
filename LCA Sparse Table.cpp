@@ -119,4 +119,4 @@ public:
 };
 
 // Problem: https://codeforces.com/contest/1702/problem/G2
-// Solution: https://codeforces.com/contest/1702/submission/167022809
+// Solution: https://codeforces.com/contest/1702/submission/167022809 OR https://ideone.com/THjEkl
