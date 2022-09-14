@@ -45,7 +45,7 @@ struct myComplex
 };
 
 template<typename float_t>
-myComplex<float_t> polar(float_t magnitude, float_t angle)
+myComplex<float_t> getPolar(float_t magnitude, float_t angle)
 {
 	return {magnitude * cos(angle), magnitude * sin(angle)};
 }
@@ -125,7 +125,7 @@ void prepare_roots(int n)
 		{
 			int index = (1 << (length - 1)) + i;
 			roots[2 * index] = roots[index];
-			roots[2 * index + 1] = polar(ONE, min_angle * (2 * i + 1));
+			roots[2 * index + 1] = getPolar(ONE, min_angle * (2 * i + 1));
 		}
 
 		length++;
@@ -501,3 +501,6 @@ vector<T> power(const vector<T> &v, int exponent, bool split = 1)
 
 // Problem1: https://codeforces.com/contest/632/problem/E
 // Solution1: https://pastebin.com/ZDAGJGY8
+
+// Problem2: https://codeforces.com/contest/993/problem/E
+// Solution2: https://ideone.com/ofsPtl
